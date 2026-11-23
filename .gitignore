@@ -1,0 +1,8 @@
+#Why? We don't want to upload private CVs, passwords, databases or temporary Python files to GitHub.
+.venv/
+__pycache__/
+*.pyc
+.env
+data/*.db
+documents/original_cv/
+documents/generated/
